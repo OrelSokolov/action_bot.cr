@@ -1,0 +1,26 @@
+{
+  "update_id": 100000004,
+  "callback_query": {
+    "id": "cbq-777",
+    "from": {
+      "id": 424242,
+      "is_bot": false,
+      "first_name": "Oleg",
+      "username": "oleg_dev",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 5001,
+      "chat": {
+        "id": 424242,
+        "first_name": "Oleg",
+        "username": "oleg_dev",
+        "type": "private"
+      },
+      "date": 1760000000,
+      "text": "Выберите тариф:"
+    },
+    "chat_instance": "-45141414114141414",
+    "data": "tariff:pro"
+  }
+}

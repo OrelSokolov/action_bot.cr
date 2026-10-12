@@ -1,0 +1,24 @@
+{
+  "update_id": 100000005,
+  "message": {
+    "message_id": 5004,
+    "from": {
+      "id": 424242,
+      "is_bot": false,
+      "first_name": "Oleg",
+      "username": "oleg_dev",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": -100999,
+      "title": "CRM Support Team",
+      "type": "group"
+    },
+    "date": 1760000030,
+    "left_chat_member": {
+      "id": 434343,
+      "is_bot": false,
+      "first_name": "Ivan"
+    }
+  }
+}

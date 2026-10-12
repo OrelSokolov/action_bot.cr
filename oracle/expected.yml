@@ -1,0 +1,40 @@
+tg01_kind	message
+tg01_update_id	100000001
+tg01_msg_id	5001
+tg01_from	424242:oleg_dev:Oleg
+tg01_chat	424242:private:-
+tg01_text	Привет, бот!
+tg01_command	-
+tg02_kind	message
+tg02_chat	-100999:group:CRM Support Team
+tg02_command	start
+tg02_text	/start
+tg03_kind	message
+tg03_text	-
+tg03_attachments	1
+tg03_attachment_0	photo:AgACAgIAAx0CAAAA2:800x800
+tg03_caption	чек на оплату
+tg04_kind	callback_query
+tg04_from	424242:oleg_dev:Oleg
+tg04_chat	424242:private:-
+tg04_data	tariff:pro
+tg05_kind	message
+tg05_event	left_chat_member
+tg05_member	434343:-:Ivan
+out_tg_send_message	{"chat_id":424242,"text":"Вы сказали: привет"}
+out_tg_edit_message	{"chat_id":424242,"message_id":5001,"text":"Вы сказали: привет (v2)"}
+out_tg_reply_markup	{"inline_keyboard":[[{"text":"Тариф Pro","callback_data":"tariff:pro"},{"text":"Тариф Max","callback_data":"tariff:max"}]]}
+out_tg_secret_header	X-Telegram-Bot-Api-Secret-Token
+wa01_kind	message
+wa01_from	79001234567:Oleg
+wa01_phone_number_id	222222222222222
+wa01_text	Здравствуйте, есть вопрос по счёту
+wa01_wamid	wamid.HBICBhXY...
+wa02_kind	button
+wa02_text	Да, звонить
+wa02_payload	CALLBACK_YES
+wa03_kind	status
+wa03_status	read
+wa03_recipient	79001234567
+out_wa_send_message	{"messaging_product":"whatsapp","to":"79001234567","type":"text","text":{"body":"Ответ поддержки"}}
+out_wa_signature_header	X-Hub-Signature-256

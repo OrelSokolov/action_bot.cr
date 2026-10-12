@@ -1,0 +1,37 @@
+{
+  "update_id": 100000003,
+  "message": {
+    "message_id": 5003,
+    "from": {
+      "id": 424242,
+      "is_bot": false,
+      "first_name": "Oleg",
+      "username": "oleg_dev",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 424242,
+      "first_name": "Oleg",
+      "username": "oleg_dev",
+      "type": "private"
+    },
+    "date": 1760000020,
+    "photo": [
+      {
+        "file_id": "AgACAgIAAx0CAAAA",
+        "file_unique_id": "AQADqxQ6",
+        "file_size": 1024,
+        "width": 160,
+        "height": 160
+      },
+      {
+        "file_id": "AgACAgIAAx0CAAAA2",
+        "file_unique_id": "AQADqxQ62",
+        "file_size": 16384,
+        "width": 800,
+        "height": 800
+      }
+    ],
+    "caption": "чек на оплату"
+  }
+}

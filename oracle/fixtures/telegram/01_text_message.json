@@ -1,0 +1,21 @@
+{
+  "update_id": 100000001,
+  "message": {
+    "message_id": 5001,
+    "from": {
+      "id": 424242,
+      "is_bot": false,
+      "first_name": "Oleg",
+      "username": "oleg_dev",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 424242,
+      "first_name": "Oleg",
+      "username": "oleg_dev",
+      "type": "private"
+    },
+    "date": 1760000000,
+    "text": "Привет, бот!"
+  }
+}

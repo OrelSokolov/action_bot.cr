@@ -1,0 +1,39 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "111111111111111",
+      "changes": [
+        {
+          "field": "messages",
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551234567",
+              "phone_number_id": "222222222222222"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Oleg"
+                },
+                "wa_id": "79001234567"
+              }
+            ],
+            "messages": [
+              {
+                "from": "79001234567",
+                "id": "wamid.HBICBhXY...",
+                "timestamp": "1760000100",
+                "text": {
+                  "body": "Здравствуйте, есть вопрос по счёту"
+                },
+                "type": "text"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
